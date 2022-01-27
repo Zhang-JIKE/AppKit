@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appBlue">#FF0064FE</color>
+    <color name="appLightBlue">#FFE7F0FF</color>
+    <color name="appWhite">#FFFFFFFF</color>
+
+    <color name="appGreen">#3BC881</color>
+    <color name="appYellow">#FFB300</color>
+    <color name="appOrange">#FF9933</color>
+    <color name="appRed">#EB5555</color>
+    <color name="appPurple">#A46ED6</color>
+    <color name="appBluee">#067AEF</color>
+
+    <color name="appBlack">#FF000000</color>
+    <color name="appBlack2">#FF6D7177</color>
+    <color name="appBlack3">#FFAAAAAA</color>
+    <color name="appBlack4">#FFCDD4D9</color>
+
+    <color name="statusBarColor">#00000000</color>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleLayout">
+        <attr name="titlelayout_text" format="string"/>
+        <attr name="titlelayout_text_color" format="color"/>
+        <attr name="titlelayout_font" format="reference"/>
+        <attr name="titlelayout_text_minscale" format="dimension"/>
+        <attr name="titlelayout_text_maxscale" format="dimension"/>
+        <attr name="titlelayout_text_size" format="dimension"/>
+        <attr name="titlelayout_title_marginleft" format="dimension"/>
+        <attr name="titlelayout_title_margintop" format="dimension"/>
+        <attr name="titlelayout_content_margintop" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="OverScrollView">
+        <attr name="overscrollview_damping" format="float"/>
+        <attr name="overscrollview_range" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="WaterFallLayout">
+        <attr name="waterfalllayout_col" format="integer"/>
+        <attr name="waterfalllayout_space" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="BaseView">
+        <attr name="uikit_isBackGradient" format="boolean"/>
+        <attr name="uikit_backStartColor" format="color"/>
+        <attr name="uikit_backEndColor" format="color"/>
+        <attr name="uikit_backColor" format="color"/>
+
+        <attr name="uikit_isTextGradient" format="boolean"/>
+        <attr name="uikit_textStartColor" format="color"/>
+        <attr name="uikit_textEndColor" format="color"/>
+        <attr name="uikit_textColor" format="color"/>
+
+
+        <attr name="uikit_isForeGradient" format="boolean"/>
+        <attr name="uikit_foreStartColor" format="color"/>
+        <attr name="uikit_foreEndColor" format="color"/>
+        <attr name="uikit_foreColor" format="color"/>
+
+        <attr name="uikit_isRound" format="boolean"/>
+        <attr name="uikit_radius" format="dimension"/>
+        <attr name="uikit_borderWidth" format="dimension"/>
+
+        <attr name="uikit_pressAnimStyle" format="enum">
+            <enum name="none" value="0" />
+            <enum name="scale" value="1" />
+            <enum name="alpha" value="2" />
+            <enum name="both" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AppTextView">
+        <attr name="apptextview_text" format="string"/>
+        <attr name="apptextview_textSize" format="dimension"/>
+        <attr name="apptextview_font" format="reference"/>
+        <attr name="apptextview_boldSize" format="float"/>
+        <attr name="apptextview_fakeBold" format="boolean"/>
+        <attr name="apptextview_textColor" format="color"/>
+        <attr name="apptextview_space" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppButton">
+        <attr name="appbutton_isSolid" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppHollowButton">
+        <attr name="apphollowbutton_text" format="string"/>
+        <attr name="apphollowbutton_textSize" format="dimension"/>
+        <attr name="apphollowbutton_space" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppImageView">
+        <attr name="appimageview_borderWidth" format="dimension"/>
+        <attr name="appimageview_radius" format="dimension"/>
+        <attr name="appimageview_isRound" format="boolean"/>
+        <attr name="appimageview_startColor" format="color"/>
+        <attr name="appimageview_endColor" format="color"/>
+        <attr name="appimageview_backColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppProgressView">
+        <attr name="appprogressview_progress" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppSwitch">
+        <attr name="appswitch_checked" format="boolean"/>
+        <attr name="appswitch_togglePadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppIcon">
+        <attr name="appicon_src" format="reference"/>
+        <attr name="appicon_isRender" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppSwitchIcon">
+        <attr name="appswitchicon_isneon" format="boolean"/>
+        <attr name="appswitchicon_isbacksolid" format="boolean"/>
+        <attr name="appswitchicon_isround" format="boolean"/>
+        <attr name="appswitchicon_back_normal_color" format="color"/>
+        <attr name="appswitchicon_icon_normal_color" format="color"/>
+        <attr name="appswitchicon_back_start_color" format="color"/>
+        <attr name="appswitchicon_back_end_color" format="color"/>
+        <attr name="appswitchicon_icon_start_color" format="color"/>
+        <attr name="appswitchicon_icon_end_color" format="color"/>
+        <attr name="appswitchicon_neoncolor" format="color"/>
+        <attr name="appswitchicon_radius" format="dimension"/>
+        <attr name="appswitchicon_lightdistance" format="dimension"/>
+        <attr name="appswitchicon_icon" format="reference"/>
+        <attr name="appswitchicon_icon_width" format="dimension"/>
+        <attr name="appswitchicon_icon_ischecked" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SquareTableLayout">
+        <attr name="squaretablelayout_col" format="integer"/>
+        <attr name="squaretablelayout_row" format="integer"/>
+        <attr name="squaretablelayout_space" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="BottomSheetLayout">
+        <attr name="bottomsheetlayout_sheetheight" format="dimension"/>
+        <attr name="bottomsheetlayout_sheetheightPercent" format="float"/>
+    </declare-styleable>
+</resources>

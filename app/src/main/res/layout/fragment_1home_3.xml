@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shape_card"
+    android:padding="12dp"
+    android:backgroundTint="@color/appBlack2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/appWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:fontFamily="@font/inter_medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <com.jike.uikit.view.AppImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_avatar"
+            app:appimageview_isRound="true"
+            app:appimageview_radius="0dp"
+            app:appimageview_backColor="@color/appWhite"
+            app:appimageview_startColor="@color/appWhite"
+            app:appimageview_endColor="@color/appWhite"
+            app:appimageview_borderWidth="1.5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JIKE Zhang"
+                android:fontFamily="@font/inter_regular"
+                android:textColor="@color/appWhite"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AppKit.com"
+                android:textColor="@color/appWhite"
+                android:textSize="10sp"
+                android:fontFamily="@font/inter_regular"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_card"
+    android:padding="12dp"
+    android:backgroundTint="@color/appBlue">
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/appWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:fontFamily="@font/inter_medium" />
+
+    <com.jike.uikit.view.AppTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:uikit_isTextGradient="true"
+        app:uikit_textStartColor="@color/appWhite"
+        app:uikit_textEndColor="@color/appBlack2"
+        app:apptextview_fakeBold="true"
+        app:apptextview_text="AppTextView"
+        app:apptextview_font="@font/inter_regular"
+        app:apptextview_textSize="29sp"/>
+
+
+    <com.jike.uikit.view.AppTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:uikit_isTextGradient="true"
+        app:uikit_textStartColor="@color/appWhite"
+        app:uikit_textEndColor="@color/appBlack2"
+        app:apptextview_fakeBold="false"
+        app:apptextview_text="AppTextView"
+        app:apptextview_font="@font/inter_regular"
+        app:apptextview_textSize="23sp"/>
+
+
+    <com.jike.uikit.view.AppTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:uikit_isTextGradient="true"
+        app:uikit_textStartColor="@color/appWhite"
+        app:uikit_textEndColor="@color/appBlack2"
+        app:apptextview_fakeBold="false"
+        app:apptextview_text="AppTextView"
+        app:apptextview_font="@font/inter_regular"
+        app:apptextview_textSize="18sp"/>
+
+
+</LinearLayout>

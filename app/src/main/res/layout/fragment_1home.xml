@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jike.uikit.viewgroup.TitleLayout android:id="@+id/titleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:titlelayout_text="AppKit"
+    app:titlelayout_title_marginleft="20dp"
+    app:titlelayout_title_margintop="42dp"
+    app:titlelayout_content_margintop="0dp"
+    app:titlelayout_text_size="26sp"
+    app:titlelayout_font="@font/inter_bold"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.jike.uikit.viewgroup.OverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:overscrollview_damping="1.8">
+
+        <com.jike.uikit.viewgroup.WaterFallLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:waterfalllayout_col="2"
+            app:waterfalllayout_space="20dp">
+
+            <include
+                layout="@layout/fragment_1home_1"/>
+
+            <include
+                layout="@layout/fragment_1home_2"/>
+
+            <include
+                layout="@layout/fragment_1home_3"/>
+
+            <include
+                layout="@layout/fragment_1home_4"/>
+
+            <include
+                layout="@layout/fragment_1home_5"/>
+
+            <include
+                layout="@layout/fragment_1home_6"/>
+
+            <include
+                layout="@layout/fragment_1home_7"/>
+
+            <include
+                layout="@layout/fragment_1home_8"/>
+
+            <include
+                layout="@layout/fragment_1home_9"/>
+
+            <include
+                layout="@layout/fragment_1home_a"/>
+
+            <include
+                layout="@layout/fragment_1home_b"/>
+
+            <include
+                layout="@layout/fragment_1home_c"/>
+
+        </com.jike.uikit.viewgroup.WaterFallLayout>
+
+    </com.jike.uikit.viewgroup.OverScrollView>
+
+
+</com.jike.uikit.viewgroup.TitleLayout>

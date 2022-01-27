@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appBlue">#FF0064FE</color>
+    <color name="appLightBlue">#FFE7F0FF</color>
+    <color name="appWhite">#FFFFFFFF</color>
+
+    <color name="appBlack">#FF000000</color>
+    <color name="appBlack2">#FF6D7177</color>
+    <color name="appBlack3">#FFAAAAAA</color>
+    <color name="appBlack4">#FFCDD4D9</color>
+
+    <color name="statusBarColor">#00000000</color>
+</resources>

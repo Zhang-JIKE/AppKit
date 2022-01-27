@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shape_card"
+    android:backgroundTint="@color/appBlack2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/appWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="SquareTbLayout"
+        android:fontFamily="@font/inter_medium" />
+
+    <com.jike.uikit.viewgroup.SquareTableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:squaretablelayout_space="12dp"
+        app:squaretablelayout_col="4"
+        app:squaretablelayout_row="2">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appBlack"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appBlue"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appLightBlue"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appWhite"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appBlack"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appBlue"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appLightBlue"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appWhite"/>
+
+    </com.jike.uikit.viewgroup.SquareTableLayout>
+
+</LinearLayout>

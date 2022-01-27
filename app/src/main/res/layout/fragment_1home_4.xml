@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:background="@drawable/shape_card"
+android:padding="12dp"
+android:backgroundTint="@color/appBlack3"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:textSize="15sp"
+    android:textColor="@color/appWhite"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ProgressView"
+    android:fontFamily="@font/inter_medium" />
+
+<com.jike.uikit.view.AppProgressView
+    android:layout_width="match_parent"
+    android:layout_height="7dp"
+    android:layout_marginTop="12dp"
+    app:appprogressview_progress="60"
+    app:uikit_isBackGradient="false"
+    app:uikit_backColor="@color/appLightBlue"
+    app:uikit_isForeGradient="true"
+    app:uikit_foreStartColor="@color/appBlue"
+    app:uikit_foreEndColor="@color/appBlue"/>
+
+
+</LinearLayout>
+
+

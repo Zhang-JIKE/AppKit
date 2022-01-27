@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shape_card"
+    android:padding="12dp"
+    android:backgroundTint="@color/appBlack3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/appWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SwitchIcon"
+        android:fontFamily="@font/inter_medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <com.jike.uikit.view.AppSwitchIcon
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:appswitchicon_isround="true"
+            app:appswitchicon_isbacksolid="true"
+            app:appswitchicon_isneon="true"
+            app:appswitchicon_lightdistance="6dp"
+            app:appswitchicon_icon_width="22dp"
+            app:appswitchicon_icon_start_color="#FFFFFF"
+            app:appswitchicon_icon_end_color="#FFFFFF"
+            app:appswitchicon_icon_normal_color="#BBBBBB"
+            app:appswitchicon_back_start_color="@color/appBlue"
+            app:appswitchicon_back_end_color="@color/appBlue"
+            app:appswitchicon_back_normal_color="#ededed"
+            android:layout_marginLeft="-6dp"
+            app:appswitchicon_icon="@drawable/ic_wifi"/>
+
+        <com.jike.uikit.view.AppSwitchIcon
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:appswitchicon_isround="false"
+            app:appswitchicon_isbacksolid="true"
+            app:appswitchicon_isneon="true"
+            app:appswitchicon_lightdistance="6dp"
+            app:appswitchicon_radius="12dp"
+            app:appswitchicon_icon_ischecked="false"
+            app:appswitchicon_icon_width="22dp"
+            app:appswitchicon_icon_start_color="#FFFFFF"
+            app:appswitchicon_icon_end_color="#FFFFFF"
+            app:appswitchicon_icon_normal_color="#BBBBBB"
+            app:appswitchicon_back_start_color="@color/appYellow"
+            app:appswitchicon_back_end_color="@color/appYellow"
+            app:appswitchicon_back_normal_color="#ededed"
+            app:appswitchicon_icon="@drawable/ic_plane"
+            android:layout_marginLeft="2dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

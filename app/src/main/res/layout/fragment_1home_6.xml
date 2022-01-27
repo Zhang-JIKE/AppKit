@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_card"
+    android:padding="12dp"
+    android:backgroundTint="@color/appBlack2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/appWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AvgLayout"
+        android:fontFamily="@font/inter_medium" />
+
+    <com.jike.uikit.viewgroup.AverageSpaceLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <FrameLayout
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appBlack"/>
+
+        <FrameLayout
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appBlue"/>
+
+        <FrameLayout
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appLightBlue"/>
+
+        <FrameLayout
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/shape_card_l"
+            android:backgroundTint="@color/appWhite"/>
+
+    </com.jike.uikit.viewgroup.AverageSpaceLayout>
+
+</LinearLayout>
